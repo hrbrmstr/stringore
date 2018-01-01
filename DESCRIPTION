@@ -1,0 +1,36 @@
+Package: stringore
+Type: Package
+Title: Tidy Regular Expression Operations with Extensive Character Encoding Support
+Version: 0.1.0
+Date: 2018-01-01
+Authors@R: c(
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640")),
+    person("Jon", "Clayden", email = "code@clayden.org", role = c("ctb"),
+           comment = c("ore R package")),
+    person("K", "Takata", email = "kentkt@csc.jp", role = c("aut"),
+           comment = c("Onigmo C library")), 
+    person("K", "Kosako", email = "sndgk393@ybb.jp", role = c("aut"),
+           comment = c("Onigmo C library")) 
+  )
+Encoding: UTF-8
+Maintainer: Bob Rudis <bob@rud.is>
+Description: The 'Onigmo' regular expression 'C' libary <https://github.com/k-takata/Onigmo> --
+    which is an extension of the 'Onigmura' <https://github.com/kkos/oniguruma> library --
+    provides support for a wide array of regular expression types and works across a 
+    wide array of character encodings. Methods are provided to perform searching, matching
+    and extraction in a tidy (i.e. "data first") manner.
+URL: https://github.com/hrbrmstr/stringore
+BugReports: https://github.com/hrbrmstr/stringore/issues
+License: BSD_3_clause + file LICENCE
+SystemRequirements: C++11
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0)
+Imports:
+    magrittr,
+    Rcpp
+RoxygenNote: 6.0.1.9000
+LinkingTo: Rcpp
