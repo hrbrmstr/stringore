@@ -16,7 +16,7 @@
 #' @docType package
 #' @author Bob Rudis (bob@@rud.is)
 #' @useDynLib stringore, .registration = TRUE
-#' @importFrom Rcpp sourceCpp
+#' @import Rcpp
 #' @importFrom magrittr %>%
 NULL
 

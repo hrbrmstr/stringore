@@ -34,10 +34,13 @@ BEGIN_RCPP
 END_RCPP
 }
 
+RcppExport SEXP _rcpp_module_boot_SORE();
+
 static const R_CallMethodDef CallEntries[] = {
     {"_stringore_onigmo_init", (DL_FUNC) &_stringore_onigmo_init, 0},
     {"_stringore_onigmo_cleanup", (DL_FUNC) &_stringore_onigmo_cleanup, 0},
     {"_stringore_onigomo_library_version", (DL_FUNC) &_stringore_onigomo_library_version, 0},
+    {"_rcpp_module_boot_SORE", (DL_FUNC) &_rcpp_module_boot_SORE, 0},
     {NULL, NULL, 0}
 };
 

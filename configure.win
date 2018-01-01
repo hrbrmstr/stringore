@@ -1,1 +1,0 @@
-cp src/onig/config.h.win src/onig/config.h

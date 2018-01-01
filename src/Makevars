@@ -17,7 +17,7 @@ OBJECTS.onigmo = onig/regcomp.o onig/regenc.o onig/regerror.o onig/regexec.o oni
     onig/reggnu.o onig/regparse.o onig/regposerr.o onig/regposix.o onig/regsyntax.o \
     onig/regtrav.o onig/regversion.o onig/st.o
 
-OBJECTS.pkg = stringore-core.o so-init.o RcppExports.o
+OBJECTS.pkg = stringore-core.o so-init.o sore.o RcppExports.o
 
 OBJECTS = $(OBJECTS.encoding) $(OBJECTS.onigmo) $(OBJECTS.pkg)
 
